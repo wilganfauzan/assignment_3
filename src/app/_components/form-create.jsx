@@ -43,7 +43,7 @@ export const FormCreate = () => {
             <option value="ranger">Ranger</option>
             <option value="berserker">Berserker</option>
         </select>
-        <button disabled={pending}>{pending ? "Creating...." : "Create"}</button>
+        <button className="bg-blue-500 hover:bg-blue-600" disabled={pending}>{pending ? "Creating...." : "Create"}</button>
         </form>
   );
 };
