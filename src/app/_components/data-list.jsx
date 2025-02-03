@@ -29,7 +29,7 @@ export const Datalist = async () => {
             <div className="text-center">{item.job}</div>
             <div className="justify-center space-x-3">
               <Link href={`/each-char/${item._id}`}>
-                <button className="bg-blue-500 text-white px-7 py-1 mb-2 rounded-lg shadow hover:bg-blue-600 transition">
+                <button className="bg-indigo-500 text-white px-7 py-1 mb-2 rounded-lg shadow hover:bg-indigo-600 transition">
                   Edit
                 </button>
               </Link>
