@@ -38,8 +38,17 @@ export const UpdateChar = ({ id, name, weapon, job }) => {
           <option value="ranger">Ranger</option>
           <option value="berserker">Berserker</option>
         </select>
-        <button className="bg-orange-500 hover:bg-orange-600">Update</button>
+        <button className="bg-orange-500 px-12 hover:bg-orange-600 rounded-full text-l">
+          Update
+        </button>
       </form>
+
+      <a
+        href="/"
+        className="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full"
+      >
+        Back to Home
+      </a>
     </section>
   );
 };
