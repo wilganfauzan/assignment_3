@@ -38,7 +38,7 @@ export const FormCreate = () => {
             <option value="paladin">Paladin</option>
             <option value="assassin">Assassin</option>
             <option value="priest">Priest</option>
-            <option value="necromancer">Necromancer</option>
+            <option value="jester">Jester</option>
             <option value="mage">Mage</option>
             <option value="ranger">Ranger</option>
             <option value="berserker">Berserker</option>

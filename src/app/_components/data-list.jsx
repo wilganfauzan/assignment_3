@@ -5,7 +5,7 @@ export const Datalist = async () => {
     const { data } = await res.json();
 
     return (
-        <div className="space-y-2">
+        <div className="space-y-2 text-center">
             <h3 className="text-2xl font-bold">Your Characters</h3>
             <div className="grid grid-cols-5 border-b font-bold bg-gray-200 p-2">
                 <div className="border-r p-2">Name</div>
@@ -18,7 +18,7 @@ export const Datalist = async () => {
                 {data.map((item) => {
                     return (
                         <div key={item._id} className="grid grid-cols-5 border items-center">
-                            <div className="border-r p-2">{item.name}</div>
+                            <div className="border-r break-words p-2">{item.name}</div>
                             <div className="border-r p-2">{item.race}</div>
                             <div className="border-r p-2">{item.weapon}</div>
                             <div className="border-r p-2">{item.job}</div>
