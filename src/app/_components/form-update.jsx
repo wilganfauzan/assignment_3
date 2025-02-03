@@ -8,7 +8,7 @@ export const UpdateChar = ({ id, name, weapon, job }) => {
       <form className="space-y-2" action={updateCharacterAction}>
         <input name="id" defaultValue={id} hidden />
 
-        <p className="font-bold mt-20">CHange your character name</p>
+        <p className="font-bold mt-20">Change your character name</p>
         <input
           name="name"
           placeholder="Change your character name"

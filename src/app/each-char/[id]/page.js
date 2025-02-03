@@ -1,5 +1,4 @@
 import { UpdateChar } from "@/app/_components/form-update";
-import { UpdateButton } from "@/app/_constants/update-button";
 
 export default async function Page({ params }) {
   const { id } = await params;
